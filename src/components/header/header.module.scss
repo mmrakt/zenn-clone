@@ -1,0 +1,59 @@
+.container {
+  padding: 10px 50px 0 50px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title > h1 {
+  font-size: 30px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.search_icon {
+  width: 25px;
+  height: 25px;
+}
+.notification_icon {
+  width: 25px;
+  height: 25px;
+}
+.avatar_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.post_button {
+  margin-left: 5px;
+  display: block;
+  height: 100%;
+  vertical-align: middle;
+
+  background: #3ea8ff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px 15px;
+}
+.tablinks {
+  & ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 40px;
+    & li {
+      font-size: 1.25em;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    & li:first-child {
+      border-bottom: 2px solid #000;
+    }
+  }
+}
