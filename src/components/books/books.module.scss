@@ -1,0 +1,98 @@
+@use "../../style" as *;
+
+.section {
+  padding: 70px 50px;
+}
+.tech {
+  background: $bg-color;
+}
+.idea {
+  background: $primary-bg-lighter-color;
+}
+.title {
+  display: flex;
+  & h2 {
+    font-size: 40px;
+  }
+}
+.body {
+  margin-top: 30px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.item {
+  width: calc((100% - 60px) / 5);
+}
+.item_image {
+  & img {
+    min-width: 100px;
+    height: 200px;
+  }
+}
+.item_title {
+  font-size: 14px;
+  color: $text-color;
+  padding: 0 20px;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.item_inner {
+  padding: 0 20px;
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.item_icon > img {
+  border-radius: 50%;
+}
+.item_name {
+  color: $text-color;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+.item_likes {
+  display: flex;
+  align-items: center;
+  & img {
+    width: 15px;
+    height: 15px;
+  }
+  & span {
+    margin-left: 3px;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: $text-color;
+  }
+}
+
+.more {
+  margin-top: 80px;
+  text-align: center;
+  color: $primary-color;
+  font-size: 1.125em;
+  cursor: pointer;
+  & a {
+    display: inline-block;
+    color: $primary-color;
+    & :hover {
+      border-bottom: 1.5px solid $primary-color;
+    }
+    & span {
+      margin-left: 3px;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .section {
+    padding: 70px 30px;
+  }
+  .item {
+    width: calc((100% - 60px) / 4);
+  }
+}

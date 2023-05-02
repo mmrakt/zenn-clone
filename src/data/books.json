@@ -1,0 +1,79 @@
+{
+  "1": {
+    "image": "book.png",
+    "title": "タイトル1タイトル1タイトル1タイトル1タイトル1",
+    "author_icon": "author_icon.png",
+    "name": "著者1",
+    "likes": "100"
+  },
+  "2": {
+    "image": "book.png",
+    "title": "タイトル2タイトル2タイトル2タイトル2タイトル2",
+    "author_icon": "author_icon.png",
+    "name": "著者2",
+    "likes": "100"
+  },
+  "3": {
+    "image": "book.png",
+    "title": "タイトル3タイトル3タイトル3タイトル3タイトル3",
+    "author_icon": "author_icon.png",
+    "name": "著者3",
+    "likes": "100"
+  },
+  "4": {
+    "image": "book.png",
+    "title": "タイトル4タイトル4タイトル4タイトル4タイトル4",
+    "author_icon": "author_icon.png",
+    "name": "著者4",
+    "likes": "100"
+  },
+  "5": {
+    "image": "book.png",
+    "title": "タイトル5タイトル5タイトル5タイトル5タイトル5",
+    "author_icon": "author_icon.png",
+    "name": "著者5",
+    "likes": "100"
+  },
+  "6": {
+    "image": "book.png",
+    "title": "タイトル6タイトル6タイトル6タイトル6タイトル6",
+    "author_icon": "author_icon.png",
+    "name": "著者6",
+    "likes": "100"
+  },
+  "7": {
+    "image": "book.png",
+    "title": "タイトル7タイトル7タイトル7タイトル7タイトル7",
+    "author_icon": "author_icon.png",
+    "name": "著者7",
+    "likes": "100"
+  },
+  "8": {
+    "image": "book.png",
+    "title": "タイトル8タイトル8タイトル8タイトル8タイトル8",
+    "author_icon": "author_icon.png",
+    "name": "著者8",
+    "likes": "100"
+  },
+  "9": {
+    "image": "book.png",
+    "title": "タイトル9タイトル9タイトル9タイトル9タイトル9",
+    "author_icon": "author_icon.png",
+    "name": "著者9",
+    "likes": "100"
+  },
+  "10": {
+    "image": "book.png",
+    "title": "タイトル10タイトル10タイトル10タイトル10タイトル10",
+    "author_icon": "author_icon.png",
+    "name": "著者10",
+    "likes": "100"
+  },
+  "11": {
+    "image": "book.png",
+    "title": "タイトル10タイトル10タイトル10タイトル10タイトル10",
+    "author_icon": "author_icon.png",
+    "name": "著者10",
+    "likes": "100"
+  }
+}
