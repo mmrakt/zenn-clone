@@ -2,7 +2,7 @@
   "tech": {
     "1": {
       "image": "emoji1.png",
-      "title": "記事タイトル1",
+      "title": "記事タイトル1記事タイトル1記事タイトル1記事タイトル1記事タイトル1",
       "author_icon": "",
       "name": "著者1",
       "published_date": "3日前",
@@ -10,7 +10,7 @@
     },
     "2": {
       "image": "emoji2.png",
-      "title": "記事タイトル2",
+      "title": "記事タイトル2記事タイトル2記事タイトル2記事タイトル2記事タイトル2",
       "author_icon": "",
       "name": "著者2",
       "published_date": "3日前",
@@ -18,7 +18,7 @@
     },
     "3": {
       "image": "emoji3.png",
-      "title": "記事タイトル3",
+      "title": "記事タイトル3記事タイトル3記事タイトル3記事タイトル3記事タイトル3",
       "author_icon": "",
       "name": "著者3",
       "published_date": "3日前",
@@ -26,7 +26,7 @@
     },
     "4": {
       "image": "emoji4.png",
-      "title": "記事タイトル4",
+      "title": "記事タイトル4記事タイトル4記事タイトル4記事タイトル4記事タイトル4",
       "author_icon": "",
       "name": "著者4",
       "published_date": "3日前",
@@ -34,7 +34,7 @@
     },
     "5": {
       "image": "emoji5.png",
-      "title": "記事タイトル5",
+      "title": "記事タイトル5記事タイトル5記事タイトル5記事タイトル5記事タイトル5",
       "author_icon": "",
       "name": "著者5",
       "published_date": "3日前",
@@ -42,7 +42,7 @@
     },
     "6": {
       "image": "emoji6.png",
-      "title": "記事タイトル6",
+      "title": "記事タイトル6記事タイトル6記事タイトル6記事タイトル6記事タイトル6",
       "author_icon": "",
       "name": "著者6",
       "published_date": "3日前",
@@ -50,7 +50,7 @@
     },
     "7": {
       "image": "emoji7.png",
-      "title": "記事タイトル7",
+      "title": "記事タイトル7記事タイトル7記事タイトル7記事タイトル7記事タイトル7",
       "author_icon": "",
       "name": "著者7",
       "published_date": "3日前",
@@ -58,7 +58,7 @@
     },
     "8": {
       "image": "emoji8.png",
-      "title": "記事タイトル8",
+      "title": "記事タイトル8記事タイトル8記事タイトル8記事タイトル8記事タイトル8",
       "author_icon": "",
       "name": "著者8",
       "published_date": "3日前",
@@ -66,7 +66,7 @@
     },
     "9": {
       "image": "emoji9.png",
-      "title": "記事タイトル9",
+      "title": "記事タイトル9記事タイトル9記事タイトル9記事タイトル9記事タイトル9",
       "author_icon": "",
       "name": "著者9",
       "published_date": "3日前",
@@ -74,7 +74,7 @@
     },
     "10": {
       "image": "emoji10.png",
-      "title": "記事タイトル10",
+      "title": "記事タイトル10記事タイトル10記事タイトル10記事タイトル10記事タイトル10",
       "author_icon": "",
       "name": "著者10",
       "published_date": "3日前",
