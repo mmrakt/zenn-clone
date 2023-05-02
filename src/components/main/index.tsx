@@ -3,14 +3,17 @@ import s from "./main.module.scss";
 import data from "../../data/posts.json";
 
 const Main: React.FC = () => {
-  Object.entries(data.tech).forEach((post) => {
-    console.log(post[1].title);
-  });
   return (
     <main className={s.container}>
       <section className={s.section}>
         <div className={s.title}>
           <h2>Tech</h2>
+          <div className={s.tooltip}>
+            <button>?</button>
+            <div className={s.tooltip_body}>
+              プログラミングなどの技術<br></br>についての知見
+            </div>
+          </div>
         </div>
         <div className={s.body}>
           <ul className={s.list}>
