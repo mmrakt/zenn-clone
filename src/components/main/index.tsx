@@ -15,6 +15,9 @@ const Main: React.FC = () => {
       <div className={s.category}>
         <Books />
       </div>
+      <div className={s.category}>
+        <Category category="featured" />
+      </div>
     </main>
   );
 };

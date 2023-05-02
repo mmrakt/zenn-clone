@@ -6,9 +6,11 @@
 .tech {
   background: $bg-color;
 }
-.idea {
+.idea,
+.featured {
   background: $primary-bg-lighter-color;
 }
+
 .title {
   display: flex;
   & h2 {

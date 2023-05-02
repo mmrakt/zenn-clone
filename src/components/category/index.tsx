@@ -3,7 +3,7 @@ import s from "./category.module.scss";
 import data from "../../data/posts.json";
 
 type IProps = {
-  category: "tech" | "idea";
+  category: "tech" | "idea" | "featured";
 };
 const Category: React.FC<IProps> = ({ category }) => {
   const tooltipText = () => {
@@ -15,16 +15,24 @@ const Category: React.FC<IProps> = ({ category }) => {
       );
     } else if (category === "idea") {
       return <p>キャリア、チーム、仕事論、ポエムなど</p>;
-    }
+    } else return;
   };
   return (
     <section className={`${s.section} ${s[category]}`}>
       <div className={s.title}>
-        <h2>{category === "tech" ? "Tech" : "Idea"}</h2>
-        <div className={s.tooltip}>
-          <button>?</button>
-          <div className={s.tooltip_body}>{tooltipText()}</div>
-        </div>
+        <h2>
+          {category === "tech"
+            ? "Tech"
+            : category === "idea"
+            ? "Idea"
+            : "Featured"}
+        </h2>
+        {category !== "featured" && (
+          <div className={s.tooltip}>
+            <button>?</button>
+            <div className={s.tooltip_body}>{tooltipText()}</div>
+          </div>
+        )}
       </div>
       <div className={s.body}>
         <ul className={s.list}>
@@ -61,12 +69,16 @@ const Category: React.FC<IProps> = ({ category }) => {
         </ul>
       </div>
       <div className={s.more}>
-        <a href="#">
-          <span>
-            {category === "tech" ? "トレンドをもっと見る" : "記事をさらに探す"}
-          </span>
-          <span>→</span>
-        </a>
+        {category !== "featured" && (
+          <a href="#">
+            <span>
+              {category === "tech"
+                ? "トレンドをもっと見る"
+                : "記事をさらに探す"}
+            </span>
+            <span>→</span>
+          </a>
+        )}
       </div>
     </section>
   );
