@@ -1,8 +1,5 @@
 import React from "react";
 import s from "./header.module.scss";
-import searchIcon from "../../assets/search.png";
-import notificationIcon from "../../assets/bell.png";
-import avatarIcon from "../../assets/avatar.png";
 
 const Header: React.FC = () => {
   return (
@@ -13,13 +10,13 @@ const Header: React.FC = () => {
         </div>
         <div className={s.menu}>
           <button className={s.search_icon}>
-            <img src={searchIcon} alt="虫眼鏡" />
+            <img src="/images/search.png" alt="虫眼鏡" />
           </button>
           <button className={s.notification_icon}>
-            <img src={notificationIcon} alt="通知" />
+            <img src="/images/bell.png" alt="通知" />
           </button>
           <button className={s.avatar_icon}>
-            <img src={avatarIcon} alt="アバター" />
+            <img src="/images/avatar.png" alt="アバター" />
           </button>
           <button className={s.post_button}>投稿する</button>
         </div>
