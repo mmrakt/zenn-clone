@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 .inner {
-  margin: 0 80px;
+  margin: 0 40px;
   padding: 50px 0;
   display: flex;
   align-items: start;
@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 10%;
   & h4 {
     font-weight: bolder;
   }
@@ -54,5 +55,18 @@
   }
   .nav_container {
     margin-top: 50px;
+  }
+}
+@media screen and (max-width: $bp-tablet) {
+  .inner {
+    margin: 0 20px;
+  }
+  .nav_container {
+    flex-wrap: wrap;
+    margin-top: 0;
+    & nav {
+      min-width: calc(90% / 2);
+      margin-top: 40px;
+    }
   }
 }
