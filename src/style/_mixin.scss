@@ -1,2 +1,16 @@
-@mixin button() {
+@use "variables";
+
+$breakpoint: (
+  xs: "(max-width: 640px)",
+  sm: "(min-width: 641px)",
+  md: "(min-width: 768px)",
+  lg: "(min-width: 1024px)",
+  xl: "(min-width: 1280px)",
+  2xl: "(min-width: 1536px)",
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+    @content;
+  }
 }

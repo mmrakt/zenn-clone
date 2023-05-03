@@ -25,8 +25,9 @@
 }
 .item_image {
   & img {
-    min-width: 100px;
-    height: 200px;
+    width: 250px;
+    max-width: 100%;
+    aspect-ratio: auto 250 / 350;
   }
 }
 .item_title {
@@ -84,11 +85,17 @@
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: $bp-pc) {
   .container {
     padding: 50px 20px;
   }
   .item {
     width: calc((100% - 60px) / 4);
+  }
+}
+
+@media screen and (max-width: $bp-sp) {
+  .item {
+    width: calc((100% - 40px) / 3);
   }
 }
