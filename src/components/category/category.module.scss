@@ -1,8 +1,8 @@
 @use "../../style" as *;
 
-.section {
-  padding: 70px 50px;
-}
+// .section {
+//   padding: 70px 80px;
+// }
 .tech {
   background: $bg-color;
 }
@@ -10,7 +10,11 @@
 .featured {
   background: $primary-bg-lighter-color;
 }
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 70px 40px;
+}
 .title {
   display: flex;
   & h2 {
@@ -151,8 +155,8 @@
 }
 
 @media screen and (max-width: $bp-tablet) {
-  .section {
-    padding: 70px 30px;
+  .container {
+    padding: 50px 20px;
   }
   .list {
     flex-direction: column;

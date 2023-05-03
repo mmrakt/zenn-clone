@@ -1,13 +1,9 @@
 @use "../../style" as *;
 
-.section {
-  padding: 70px 50px;
-}
-.tech {
-  background: $bg-color;
-}
-.idea {
-  background: $primary-bg-lighter-color;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 70px 40px;
 }
 .title {
   display: flex;
@@ -89,8 +85,8 @@
 }
 
 @media screen and (max-width: 980px) {
-  .section {
-    padding: 70px 30px;
+  .container {
+    padding: 50px 20px;
   }
   .item {
     width: calc((100% - 60px) / 4);

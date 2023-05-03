@@ -1,0 +1,58 @@
+@use "../../style" as *;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.inner {
+  margin: 0 80px;
+  padding: 50px 0;
+  display: flex;
+  align-items: start;
+  border-bottom: 1px solid #ccc;
+}
+.site {
+  min-width: 200px;
+  & h3 {
+    font-size: 30px;
+  }
+  & span {
+    font-size: 14px;
+  }
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  & h4 {
+    font-weight: bolder;
+  }
+  & ul li {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+  }
+}
+.company {
+  text-align: center;
+  padding: 30px 0;
+  & span {
+    color: #000;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: $bp-pc) {
+  .inner {
+    flex-direction: column;
+  }
+  .site {
+    width: 100%;
+    & br {
+      display: none;
+    }
+  }
+  .nav_container {
+    margin-top: 50px;
+  }
+}
