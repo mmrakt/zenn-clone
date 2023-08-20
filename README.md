@@ -4,14 +4,13 @@
 
 ## Getting Started
 
-In the project directory, you can run:
-
 ```
 pnpm i
+
+pnpm dev
 ```
 
-Runs the app in the development mode.\
-Open [`http://localhost:5173`](http://localhost:5173)
+And open [`http://localhost:5173`](http://localhost:5173)
 
 ## Tech stack
 
