@@ -53,9 +53,12 @@
     transition: transform 0.2s;
   }
 }
+%bottom-line {
+  border-bottom: 1px solid $primary-bg-lighter-color;
+}
 .popup_account_name {
   padding: 10px 10px;
-  border-bottom: 1px solid #ddd;
+  @extend %bottom-line;
   & h3 {
     font-size: 16px;
   }
@@ -67,7 +70,7 @@
     background: $primary-bg-lighter-color;
   }
 }
-.popup_item {
+%popup-item {
   & a {
     display: flex;
     align-items: center;
@@ -86,6 +89,14 @@
   &:hover {
     background: $primary-bg-lighter-color;
   }
+}
+.popup_item {
+  @extend %popup-item;
+}
+
+.popup_item--bottomLine {
+  @extend %popup-item;
+  @extend %bottom-line;
 }
 
 .post_button {
