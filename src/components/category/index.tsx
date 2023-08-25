@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./category.module.scss";
-import { posts } from "../../data/posts.json";
+import posts from "../../data/posts.json";
 
 type IProps = {
   category: "tech" | "idea" | "featured";
@@ -37,37 +37,34 @@ const Category: React.FC<IProps> = ({ category }) => {
         </div>
         <div className={s.body}>
           <ul className={s.list}>
-            {Object.entries(data.tech).map((post) => (
-              <li className={s.item} key={post[0]}>
-                <a href="#">
+            {posts[category].map((post) => (
+              <li className={s.item} key={post.slug}>
+                <a href={post.slug} className={s.item_link}>
                   <div className={s.item_image}>
-                    <img
-                      src={`/images/${post[1].image}`}
-                      alt="記事のアイコン"
-                    />
+                    <img src={`/images/${post.image}`} alt="記事のアイコン" />
+                  </div>
+                  <div className={s.item_body}>
+                    <h3 className={s.item_title}>{post.title}</h3>
+                    <div className={s.item_inner}>
+                      <div className={s.item_icon}>
+                        <img
+                          src="/images/author_icon.png"
+                          alt="著者のアイコン"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <span className={s.item_name}>{post.name}</span>
+                      <span className={s.item_published_date}>
+                        {post.published_date}
+                      </span>
+                      <p className={s.item_likes}>
+                        <img src="/images/like.png" alt="ライクボタン" />
+                        <span>{post.likes}</span>
+                      </p>
+                    </div>
                   </div>
                 </a>
-                <div className={s.item_body}>
-                  <h3 className={s.item_title}>{post[1].title}</h3>
-                  <div className={s.item_inner}>
-                    <div className={s.item_icon}>
-                      <img
-                        src="/images/author_icon.png"
-                        alt="著者のアイコン"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <span className={s.item_name}>{post[1].name}</span>
-                    <span className={s.item_published_date}>
-                      {post[1].published_date}
-                    </span>
-                    <p className={s.item_likes}>
-                      <img src="/images/like.png" alt="ライクボタン" />
-                      <span>{post[1].likes}</span>
-                    </p>
-                  </div>
-                </div>
               </li>
             ))}
           </ul>

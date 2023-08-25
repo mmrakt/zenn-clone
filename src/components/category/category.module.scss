@@ -81,6 +81,9 @@
   width: calc((100% - 50px) / 2);
   display: flex;
 }
+.item_link {
+  width: 100%;
+}
 .item_image {
   background: #fff;
   border-radius: 10px;

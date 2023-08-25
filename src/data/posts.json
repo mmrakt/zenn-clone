@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "tech": [
     {
       "slug": "tech-post1",
       "image": "emoji1.png",
@@ -99,7 +99,9 @@
       "name": "著者10",
       "published_date": "3日前",
       "likes": "100"
-    },
+    }
+  ],
+  "idea": [
     {
       "slug": "idea-post1",
       "image": "emoji1.png",
@@ -199,8 +201,10 @@
       "name": "著者10",
       "published_date": "3日前",
       "likes": "100"
-    },
-    {
+    }
+  ],
+  "featured": [
+      {
       "slug": "featured-post1",
       "image": "emoji1.png",
       "category": "featured",
