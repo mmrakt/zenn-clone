@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "clsx": "^2.0.0",
-    "node-sass": "^8.0.0",
+    "dart-sass": "^1.25.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
@@ -29,5 +29,8 @@
     "typescript": "^5.0.2",
     "typescript-plugin-css-modules": "^5.0.1",
     "vite": "^4.3.2"
+  },
+  "volta": {
+    "node": "20.5.1"
   }
 }
