@@ -1,84 +1,304 @@
 {
-  "tech": {
-    "1": {
+  "posts": [
+    {
+      "slug": "tech-post1",
       "image": "emoji1.png",
+      "category": "tech",
       "title": "記事タイトル1記事タイトル1記事タイトル1記事タイトル1記事タイトル1",
       "author_icon": "",
       "name": "著者1",
       "published_date": "3日前",
       "likes": "100"
     },
-    "2": {
+    {
+      "slug": "tech-post2",
       "image": "emoji2.png",
+      "category": "tech",
       "title": "記事タイトル2記事タイトル2記事タイトル2記事タイトル2記事タイトル2",
       "author_icon": "",
       "name": "著者2",
       "published_date": "3日前",
       "likes": "100"
     },
-    "3": {
+    {
+      "slug": "tech-post3",
       "image": "emoji3.png",
+      "category": "tech",
       "title": "記事タイトル3記事タイトル3記事タイトル3記事タイトル3記事タイトル3",
       "author_icon": "",
       "name": "著者3",
       "published_date": "3日前",
       "likes": "100"
     },
-    "4": {
+    {
+      "slug": "tech-post4",
       "image": "emoji4.png",
+      "category": "tech",
       "title": "記事タイトル4記事タイトル4記事タイトル4記事タイトル4記事タイトル4",
       "author_icon": "",
       "name": "著者4",
       "published_date": "3日前",
       "likes": "100"
     },
-    "5": {
+    {
+      "slug": "tech-post5",
       "image": "emoji5.png",
+      "category": "tech",
       "title": "記事タイトル5記事タイトル5記事タイトル5記事タイトル5記事タイトル5",
       "author_icon": "",
       "name": "著者5",
       "published_date": "3日前",
       "likes": "100"
     },
-    "6": {
+    {
+      "slug": "tech-post6",
       "image": "emoji6.png",
+      "category": "tech",
       "title": "記事タイトル6記事タイトル6記事タイトル6記事タイトル6記事タイトル6",
       "author_icon": "",
       "name": "著者6",
       "published_date": "3日前",
       "likes": "100"
     },
-    "7": {
+    {
+      "slug": "tech-post7",
       "image": "emoji7.png",
+      "category": "tech",
       "title": "記事タイトル7記事タイトル7記事タイトル7記事タイトル7記事タイトル7",
       "author_icon": "",
       "name": "著者7",
       "published_date": "3日前",
       "likes": "100"
     },
-    "8": {
+    {
+      "slug": "tech-post8",
       "image": "emoji8.png",
+      "category": "tech",
       "title": "記事タイトル8記事タイトル8記事タイトル8記事タイトル8記事タイトル8",
       "author_icon": "",
       "name": "著者8",
       "published_date": "3日前",
       "likes": "100"
     },
-    "9": {
+    {
+      "slug": "tech-post9",
       "image": "emoji9.png",
+      "category": "tech",
       "title": "記事タイトル9記事タイトル9記事タイトル9記事タイトル9記事タイトル9",
       "author_icon": "",
       "name": "著者9",
       "published_date": "3日前",
       "likes": "100"
     },
-    "10": {
+    {
+      "slug": "tech-post10",
       "image": "emoji10.png",
+      "category": "tech",
+      "title": "記事タイトル10記事タイトル10記事タイトル10記事タイトル10記事タイトル10",
+      "author_icon": "",
+      "name": "著者10",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post1",
+      "image": "emoji1.png",
+      "category": "idea",
+      "title": "記事タイトル1記事タイトル1記事タイトル1記事タイトル1記事タイトル1",
+      "author_icon": "",
+      "name": "著者1",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post2",
+      "image": "emoji2.png",
+      "category": "idea",
+      "title": "記事タイトル2記事タイトル2記事タイトル2記事タイトル2記事タイトル2",
+      "author_icon": "",
+      "name": "著者2",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post3",
+      "image": "emoji3.png",
+      "category": "idea",
+      "title": "記事タイトル3記事タイトル3記事タイトル3記事タイトル3記事タイトル3",
+      "author_icon": "",
+      "name": "著者3",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post4",
+      "image": "emoji4.png",
+      "category": "idea",
+      "title": "記事タイトル4記事タイトル4記事タイトル4記事タイトル4記事タイトル4",
+      "author_icon": "",
+      "name": "著者4",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post5",
+      "image": "emoji5.png",
+      "category": "idea",
+      "title": "記事タイトル5記事タイトル5記事タイトル5記事タイトル5記事タイトル5",
+      "author_icon": "",
+      "name": "著者5",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post6",
+      "image": "emoji6.png",
+      "category": "idea",
+      "title": "記事タイトル6記事タイトル6記事タイトル6記事タイトル6記事タイトル6",
+      "author_icon": "",
+      "name": "著者6",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post7",
+      "image": "emoji7.png",
+      "category": "idea",
+      "title": "記事タイトル7記事タイトル7記事タイトル7記事タイトル7記事タイトル7",
+      "author_icon": "",
+      "name": "著者7",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post8",
+      "image": "emoji8.png",
+      "category": "idea",
+      "title": "記事タイトル8記事タイトル8記事タイトル8記事タイトル8記事タイトル8",
+      "author_icon": "",
+      "name": "著者8",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post9",
+      "image": "emoji9.png",
+      "category": "idea",
+      "title": "記事タイトル9記事タイトル9記事タイトル9記事タイトル9記事タイトル9",
+      "author_icon": "",
+      "name": "著者9",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "idea-post10",
+      "image": "emoji10.png",
+      "category": "idea",
+      "title": "記事タイトル10記事タイトル10記事タイトル10記事タイトル10記事タイトル10",
+      "author_icon": "",
+      "name": "著者10",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post1",
+      "image": "emoji1.png",
+      "category": "featured",
+      "title": "記事タイトル1記事タイトル1記事タイトル1記事タイトル1記事タイトル1",
+      "author_icon": "",
+      "name": "著者1",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post2",
+      "image": "emoji2.png",
+      "category": "featured",
+      "title": "記事タイトル2記事タイトル2記事タイトル2記事タイトル2記事タイトル2",
+      "author_icon": "",
+      "name": "著者2",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post3",
+      "image": "emoji3.png",
+      "category": "featured",
+      "title": "記事タイトル3記事タイトル3記事タイトル3記事タイトル3記事タイトル3",
+      "author_icon": "",
+      "name": "著者3",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post4",
+      "image": "emoji4.png",
+      "category": "featured",
+      "title": "記事タイトル4記事タイトル4記事タイトル4記事タイトル4記事タイトル4",
+      "author_icon": "",
+      "name": "著者4",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post5",
+      "image": "emoji5.png",
+      "category": "featured",
+      "title": "記事タイトル5記事タイトル5記事タイトル5記事タイトル5記事タイトル5",
+      "author_icon": "",
+      "name": "著者5",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post6",
+      "image": "emoji6.png",
+      "category": "featured",
+      "title": "記事タイトル6記事タイトル6記事タイトル6記事タイトル6記事タイトル6",
+      "author_icon": "",
+      "name": "著者6",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post7",
+      "image": "emoji7.png",
+      "category": "featured",
+      "title": "記事タイトル7記事タイトル7記事タイトル7記事タイトル7記事タイトル7",
+      "author_icon": "",
+      "name": "著者7",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post8",
+      "image": "emoji8.png",
+      "category": "featured",
+      "title": "記事タイトル8記事タイトル8記事タイトル8記事タイトル8記事タイトル8",
+      "author_icon": "",
+      "name": "著者8",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post9",
+      "image": "emoji9.png",
+      "category": "featured",
+      "title": "記事タイトル9記事タイトル9記事タイトル9記事タイトル9記事タイトル9",
+      "author_icon": "",
+      "name": "著者9",
+      "published_date": "3日前",
+      "likes": "100"
+    },
+    {
+      "slug": "featured-post10",
+      "image": "emoji10.png",
+      "category": "featured",
       "title": "記事タイトル10記事タイトル10記事タイトル10記事タイトル10記事タイトル10",
       "author_icon": "",
       "name": "著者10",
       "published_date": "3日前",
       "likes": "100"
     }
-  }
+  ]
 }

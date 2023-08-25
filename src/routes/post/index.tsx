@@ -1,4 +1,16 @@
 import Layout from "../../components/layout";
+import data from "../../data/posts.json";
+
+// const loader = async ({ params }: { params: any }) => {
+//   const post = Object.entries.find(())
+//   if (!post) {
+//     throw new Response("", {
+//       status: 404,
+//       statusText: "Not Found",
+//     });
+//   }
+//   return contact;
+// };
 
 const Post = () => {
   return (

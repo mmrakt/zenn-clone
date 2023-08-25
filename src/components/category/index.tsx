@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./category.module.scss";
-import data from "../../data/posts.json";
+import { posts } from "../../data/posts.json";
 
 type IProps = {
   category: "tech" | "idea" | "featured";
