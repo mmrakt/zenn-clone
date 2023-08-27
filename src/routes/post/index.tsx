@@ -1,5 +1,4 @@
 import Layout from "../../components/layout";
-import data from "../../data/posts.json";
 
 // const loader = async ({ params }: { params: any }) => {
 //   const post = Object.entries.find(())
